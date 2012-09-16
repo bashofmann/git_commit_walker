@@ -8,7 +8,7 @@ checkout_and_wait() {
     clean_and_checkout "$1"
     clear
     git log -1 | cat
-    read -p "Continue..." <&2
+    read -p "Continue..." F <&2
   fi
 }
 cd $1
