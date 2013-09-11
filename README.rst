@@ -5,4 +5,4 @@ The script resets and cleans the current working tree and index!
 Usage
 -----
 
-    sh git_commit_walker.sh /path/to/repository branch_name
+    sh git_commit_walker.sh /path/to/repository branch_name [start_commit_short_hash]
